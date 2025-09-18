@@ -1,0 +1,31 @@
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  background-image: url('https://images.unsplash.com/photo-1480072723304-5021e468de85');
+  background-size: cover;
+  background-position: center;
+}
+
+.form-container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  width: 400px;
+}
+
+.form-container label {
+  font-weight: 600;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.error-msg-colr {
+  color: red;
+  font-size: small;
+}
